@@ -17,7 +17,7 @@ type DbRepository struct {
 var Database DbRepository
 
 func ConnectDatabase() {
-	db, err := gorm.Open(sqlite.Open("stamps.db"), &gorm.Config{})
+	db, err := gorm.Open(sqlite.Open("dbstamps.db"), &gorm.Config{})
 
 	if err != nil {
 		log.Fatal("Failed to connect to the database!\n", err.Error())
