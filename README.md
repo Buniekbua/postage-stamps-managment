@@ -97,7 +97,7 @@ SECRET_KEY = YourSecretKey
 ## Structure
 
   
-  📦postage-stamps-managment
+📦postage-stamps-managment
  ┣ 📂controllers  
  ┃ ┣ 📜authController.go  
  ┃ ┣ 📜stampController.go  
